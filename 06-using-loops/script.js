@@ -12,7 +12,11 @@ let result = "";
     for (let i = num1; i <= num2; i++) {
         console.log(i);
     if (i % 2 !== 0) {
-    result += i;
+        if (i === num2) {
+            result += i
+        } else {
+            result += i + ", ";
+        }
 }
 }
 return result;
@@ -27,8 +31,6 @@ console.log(oddNumbers(10, 33));
 console.log(oddNumbers(9, 12));
 // result should be: 9,11
 
-//02-charCount function
-console.log("Taks 02");
 
 
 
