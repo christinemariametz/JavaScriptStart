@@ -20,7 +20,7 @@
 // console.log(result);
 // Returns Greater than 10 but should return Greater than 20
 
-const size = 25;
+/*const size = 25;
 let result;
 
 if (size > 10 && size <= 20) {
@@ -32,7 +32,7 @@ if (size > 10 && size <= 20) {
 }
 
 console.log(result);
-// Returns Greater than 10 but should return Greater than 20
+// Returns Greater than 10 but should return Greater than 20*/
 
 
 
@@ -45,8 +45,20 @@ console.log(result);
  // If the number is an even number, the function returns the string even
  // If the number is an od number, the function returns the string odd
 
-
 function oddEven(number) {
+  let result123;
+
+  if (number % 2 === 0) {
+    result123 = "even";
+  }
+  if (number % 2 !== 0) {
+    result123 = "odd";
+  }
+  return result123;
+}
+
+
+/*function oddEven(number) {
     let resultOddEven;
     if (number % 2 === 0) {
         resultOddEven = "even";    
@@ -55,7 +67,7 @@ function oddEven(number) {
         resultOddEven = "odd";
     }
     return resultOddEven;
-}
+}*/
 
 console.log(oddEven(4));
 // result should be even

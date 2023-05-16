@@ -4,17 +4,7 @@
 /// function return string that contains name of person in a welcome msg.
 
 
-function welcomeMsg() {
- console.log("Welcome Tine");
-}
 
-function welcomeMsg(Tine) {
-    console.log("Welcome" + " " + Tine + "!")
-}
-
-
-
-welcomeMsg("Tine")
 
 function welcomeMsg(name) {
     return "Welcome " + name + "!";
@@ -22,6 +12,8 @@ function welcomeMsg(name) {
 
 console.log(welcomeMsg("Tine"));
 console.log(welcomeMsg("Boys"));
+console.log(welcomeMsg("Bene"));
+
 
 //  02) Gross Price Function
 //  Implement a calcGrossPrice function.

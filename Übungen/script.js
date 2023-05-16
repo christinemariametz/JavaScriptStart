@@ -1,4 +1,4 @@
-const names = ["Jimmy", "Tine", "Bea", "Nazan", "Stefan"]
+/*const names = ["Jimmy", "Tine", "Bea", "Nazan", "Stefan"]
 
 const longNames = [];
 
@@ -26,4 +26,4 @@ function checkNameLength(name) {
 //}
 return name.length > 4;
 }
-
+*/

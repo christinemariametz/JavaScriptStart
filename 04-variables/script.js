@@ -38,8 +38,6 @@ console.log(getUserNameLength() === 4);
 
 
 
-
-
 // 02) isString function
 //Implement a isString function.
 
@@ -53,6 +51,8 @@ typeIs = typeof anyDataType;
 return typeIs === "string";
  }
 
+
+ 
  console.log(isString("Hello"));
 // result should be true
 
