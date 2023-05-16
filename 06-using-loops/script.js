@@ -8,13 +8,14 @@
 
 
 function oddNumbers(num1, num2) {
-let result = [];
-for (let number = num1; number <= num2; number++) {
-if (number % 2 !== 0 && number >= 0) {
-    result.push(number);
+let result = "";
+    for (let i = num1; i <= num2; i++) {
+        console.log(i);
+    if (i % 2 !== 0) {
+    result += i;
 }
 }
-return result.join(",")
+return result;
 }
 
 console.log(oddNumbers(0, 4));
