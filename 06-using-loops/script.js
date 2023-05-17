@@ -6,21 +6,23 @@
  //Store all oddNumbers in string, seperated by a comma and return the string.
  //Allowed are only positive numbers, add a check.
 
+function oddNumbers(start, end) {
+    let result = "";
 
-function oddNumbers(num1, num2) {
-let result = "";
-    for (let i = num1; i <= num2; i++) {
-        console.log(i);
-    if (i % 2 !== 0) {
-        if (i === num2) {
-            result += i
-        } else {
-            result += i + ", ";
-        }
+for(let index = start; index <= end; index++) {
+    if (index % 2 !== 0) {
+
+if (index === end || index === end - 1 ) {
+    result += index;
+} else {
+    result += index + ",";
 }
-}
+    }
+}     
 return result;
 }
+
+
 
 console.log(oddNumbers(0, 4));
 // result should be: 1,3
