@@ -20,7 +20,7 @@
 // console.log(result);
 // Returns Greater than 10 but should return Greater than 20
 
-/*const size = 25;
+const size = 25;
 let result;
 
 if (size > 10 && size <= 20) {
@@ -32,7 +32,7 @@ if (size > 10 && size <= 20) {
 }
 
 console.log(result);
-// Returns Greater than 10 but should return Greater than 20*/
+// Returns Greater than 10 but should return Greater than 20
 
 
 
