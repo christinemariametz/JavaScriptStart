@@ -11,7 +11,7 @@ function elevator(left, right, call) {
   }
 }
   
-  
+
   
   elevator(0, 1, 0); // => "left"
   elevator(0, 1, 1); // => "right"
