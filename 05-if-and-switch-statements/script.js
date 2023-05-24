@@ -40,7 +40,6 @@ console.log(result);
 
 // 02) oddEven function
 // Implement a oddEven function.
-
  // The function has one parameter which is a number
  // If the number is an even number, the function returns the string even
  // If the number is an od number, the function returns the string odd
